@@ -1,0 +1,86 @@
+body{
+  /* margin: 0; */
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+h1{
+  margin: 40px auto 0 auto;
+  font-size: 5rem; 16px = 100% = 1em
+  font-family: 'Bree Serif', serif;
+  color: #aaaaaa;
+}
+
+h2{
+  font-family: 'Bree Serif', serif;
+  font-size: 2.5rem;
+  line-height: 2;
+  color: #aaaaaa;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Bree Serif', serif;
+  color: #11999E;
+}
+
+p{
+  font-family: 'PT Sans', sans-serif;
+  width: 50%;
+  margin: auto;
+}
+
+
+a{
+  color: #11999E;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.top{
+  background-color: #a4ebf3;
+  color: #aaaaaa;
+  padding: 20px;
+}
+
+.middle{
+  background-color: #ccf2f4;
+  padding: 50px 0px;
+}
+
+.bottom{
+  background-color: #f4f9f9;
+  padding: 40px 0 20px;
+  color: black;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+
+.internet{
+  padding-right: 30px;
+  float: left;
+  width: 25%;
+}
+
+.skills{
+  line-height: 2;
+}
+
+.web-design{
+  padding-left: 30px;
+  float: right;
+  width: 25%;
+}
+
+.bio{
+  text-decoration: underline;
+
+}
