@@ -4,19 +4,26 @@
     <meta charset="utf-8">
     <title>projects</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/projects.css">
 
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-primary">
+
+    <nav class="navbar navbar-expand-md navbar-light bg-success" id="navFixer">
       <a class="navbar-brand" href="index.html">M Lopez</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="resume.html">Resume</a>
         </li>
 
         <li class="nav-item">
@@ -28,7 +35,10 @@
         </li>
 
       </ul>
+    </div>
     </nav>
+
+
     <div class="top">
       <h1 class="bio">Projects</h1>
     </div>
@@ -38,16 +48,32 @@
       <div class="">
         <table>
           <tr>
-            <h2 class="bio"><em>Hiking App</em></h2>
+            <h2 class="bio"><em>Internzip <span>2021</span></em></h2>
           </tr>
           <tr>
+            <td>
             <div class="skill-row">
-              <h3>The overall description </h3>
-              <p>This project was for my CSE 248 class. The goal of this project was to construct a functional hiking app (although real data was not a requirement).
-                 The app itself would act like a sort of </p>
-
+              <h3>description:</h3>
+              <p>This was the project that was made for the CWIT 2021 Hackathon. Me and 3 others
+              built this app that would help new, potential interns find people to potentially room togehter.
+            They can use the app to try to reserve a spot in the room where then the owner would screen them.
+          the link below will take you to the devPost:</p>
+          <a href="https://devpost.com/software/internzip">Internzip</a>
 
             </div>
+            </td>
+
+            <td>
+              <div class="skill-row">
+                <h3>contributions</h3>
+                <p>My part in this project was to research the data used in the project. I also
+                  had made the JSON that would hold the data researched. However one of the things i learned
+                while working in the team was how to use visual studeo, how to load the website using the terminal
+              in visual studeo and github as well aswhat a JSON is and how to use it. </p>
+
+              </div>
+
+            </td>
           </tr>
         </table>
       </div>
@@ -55,27 +81,116 @@
       <div class="">
         <table>
           <tr>
-            <h2 class="bio"><em>My Hobbies</em></h2>
+            <h2 class="bio"><em>Hiking App  <span>2021</span></em></h2>
           </tr>
           <tr>
-            <ul>
-                <li>
-                      <p>reading science-fiction, informational and historical books</p>
-                </li>
-                <li>
+            <td>
 
-                </li>
-            </ul>
+            <div class="skill-row">
+              <h3>The overall description </h3>
+              <p>This project was for my CSE 248 class. The goal of this project was to construct a functional hiking app (although real data was not a requirement).
+                 The app itself would act similar to many out there.</p>
+            </div>
+            </td>
+
+            <td>
+            <div class="skill-row">
+              <h3>Basic requirements </h3>
+              <p>It had to have admins and regular users, in which admins had more power over the website than the users.
+              the users(including admins) could search for trails via any part of the trail. the users could also have a hiking history
+            that kept track of the trails they've hiked.</p>
+            </div>
+             </td>
+
+
+          </tr>
+        </table>
+      </div>
+
+      <div class="">
+        <table>
+          <tr>
+            <h2 class="bio"><em>DND enemy generator <span>2020</span></em></h2>
+          </tr>
+          <tr>
+            <td>
+            <div class="skill-row">
+              <h3>The overall description </h3>
+              <p>This is a tool to help dm's randomly generate enemy stats for use in encounters. it takes inspiration from the DND beyond
+              encounter builder and is made with the objective as being an add-on tool. so far, it is still a work in progress</p>
+
+            </div>
+            </td>
+
+            <td>
+              <div class="skill-row">
+                <h3>requirements</h3>
+                <p>There should be classes for every category of monster/ enemy. There should be a random number generator for dice rolls and
+                a way to store the data for future use</p>
+
+              </div>
+
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="">
+        <table>
+          <tr>
+            <h2 class="bio"><em>College Directory Project <span>2020</span></em></h2>
+          </tr>
+          <tr>
+            <td>
+            <div class="skill-row">
+              <h3>The overall description </h3>
+              <p>This was the final project for my Cse 148 class. It would store data akin to that of a college, where
+              it holds students and faculties, along with their respective courses.</p>
+
+            </div>
+            </td>
+
+            <td>
+              <div class="skill-row">
+                <h3>requirements</h3>
+                <p>there are many requirements, such as the use of enums, a way to save data (I/O stream), hard-coded
+                Javafx, and the such</p>
+
+              </div>
+
+            </td>
           </tr>
         </table>
       </div>
 
 
+      <div class="">
+        <table>
+          <tr>
+            <h2 class="bio"><em>bookstore project <span>2019</span></em></h2>
+          </tr>
+          <tr>
+            <td>
+            <div class="skill-row">
+              <h3>The overall description </h3>
+              <p>This project was to make a fictional bookstore that would allow users to checkout/buy books.
+              it would keep track of books boutght, books in-store and incoming</p>
 
+            </div>
+            </td>
 
-      <h2>interests</h2>
+            <td>
+              <div class="skill-row">
+                <h3>requirements</h3>
+                <p>One requrement was that it is supposed to have a catalog,
+                  a cart to add things to, a checkout area, and a way to add things to the cart</p>
 
+              </div>
 
+            </td>
+          </tr>
+        </table>
+      </div>
 
 
     </div>
@@ -88,6 +203,9 @@
 
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   </body>
 </html>
