@@ -4,19 +4,24 @@
     <meta charset="utf-8">
     <title></title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/about.css">
 
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-primary">
+
+    <nav class="navbar navbar-expand-md navbar-light bg-success" id="navFixer">
       <a class="navbar-brand" href="index.html">M Lopez</a>
 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="index.html">landing page</a>
+            <a class="nav-link" href="resume.html">Resume</a>
         </li>
 
         <li class="nav-item">
@@ -28,56 +33,69 @@
         </li>
 
       </ul>
-    </nav>
-    <div class="top">
-      <h1 class="bio">About Me</h1>
     </div>
+    </nav>
+
+
 
     <div class="middle">
-      <div class="">
-        <table>
-          <tr>
+      <div class="dev-left">
+        <img class="myProfile"src="images/profilePic.jpg" alt="profilePic">
+          <h1 class="bio">About Me</h1>
+
+
             <h2 class="bio"><em>bio</em></h2>
-          </tr>
-          <tr>
-            <p>I am a college student currently enrolled in suffolk county community college</p>
-              <p>It has been and felt like a long road and im sure the road ahead is even longer, but throu hardship and strife, ill make it through.</p>
-          </tr>
-        </table>
+            <p class="p-fix">I am a college student currently enrolled in suffolk county community college.
+              It has been and felt like a long road and im sure the road ahead is even longer, but throu hardship and strife, ill make it through.</p>
 
       </div>
 
-      <div class="">
-        <table>
-          <tr>
+
+      <div class="dev-left">
             <h2 class="bio">My Hobbies</h2>
-          </tr>
-          <tr>
             <ul>
                 <li>
-                      <p>reading science-fiction, informational and historical books</p>
+                      <p class="p-changer">reading science-fiction, informational and historical books</p>
                 </li>
                 <li>
-
+                    <p class="p-changer">playing DND with friends</p>
+                </li>
+                <li>
+                  <p class="p-changer">playing the violin</p>
                 </li>
             </ul>
-          </tr>
-        </table>
+      </div>
+
+      <div class="dev-left">
+          <h2>interests</h2>
+          <ol>
+            <li>
+                <h3>Computer Science: Programming languages</h3>
+            </li>
+          </ol>
       </div>
 
 
-      <h2>interests</h2>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3 >feel free to say hi to me at any of the following</h3>
+        <p class="contact-messege">phone: (631)205-4219</p>
+        <a class="btn" href="mailto:marlo-1990@hotmail.com">CONTACT ME</a>
 
-
+      </div>
     </div>
 
 
 
     <div class="bottom">
-      <h2>My hobbies</h2>
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://www.facebook.com/">facebook</a><br>
         <p class="copyright">© 2021 Marcos Lopez Vega.</p>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   </body>
 </html>
